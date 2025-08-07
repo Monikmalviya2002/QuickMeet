@@ -1,0 +1,21 @@
+{
+  "name": "quickmeet",
+  "version": "1.0.0",
+  "description": "real time video meeting app",
+  "main": "index.js",
+   "scripts": {
+    "start": "node src/app.js",
+    "dev": " nodemon src/app.js"
+  },
+  "author": "monik malviya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodeman": "^1.1.2",
+    "socket.io": "^4.8.1"
+  }
+}

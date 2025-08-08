@@ -10,8 +10,10 @@ app.use(cookieParser());
 
 
  const userRouter= require("./routes/userauth");
+ const meetRouter = require("./routes/meeting");
 
  app.use("/",userRouter);
+ app.use("/",meetRouter);
 
 const server = http.createServer(app);
 connectDB()
